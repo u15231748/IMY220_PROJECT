@@ -1,0 +1,241 @@
+nav{
+    position: relative;
+    width: 100%;
+    padding: 0;
+    box-shadow: 1px 1px 1px 2px black;
+    background-color: #000000;
+}
+
+nav span:nth-child(1) img{
+    position: relative;
+    width: 130px;
+    height: 55px;
+}
+
+nav span:nth-child(2) input{
+    background: transparent;
+    border-radius: 7;
+    padding: 15px;
+    font-size: 15pt;
+}
+
+nav span:nth-child(2) input:focus{
+    background: transparent;
+    color: white;
+    -webkit-appearance: none;
+    outline: none;
+    box-shadow: none;
+}
+
+nav span:nth-child(2) input::placeholder{
+    color: white;
+}
+
+nav span:nth-child(3) div{
+    position: relative;
+    float: right;
+    color: white;
+}
+
+nav span:nth-child(3) div a{
+    position: relative;
+    font-size: 22pt;
+    color: white;
+    top: 4px;
+    margin-left: 8px;
+    border: 0px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration-line: none;
+}
+
+.postContent{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background: rgb(80, 79, 79);
+}
+
+#posts{
+    position: relative;
+    width: 44%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 3px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+#posts::-webkit-scrollbar{
+    display: none;
+}
+
+#messages{
+    position: relative;
+    width: 28%;
+}
+
+#albums{
+    position: relative;
+    width: 28%;
+}
+
+.post span:nth-child(1){
+    position: relative;
+    display: inline-flex;
+    margin: 0;
+    height: 4.2em;
+}
+
+.post .card-header span:nth-child(1) img{
+    border: 2px solid black;
+}
+
+.post span:nth-child(1) span label{
+    position: relative;
+    top: -1px;
+    display: block;
+    margin-left: 7px;
+}
+
+.post span:nth-child(1) span label:nth-child(1){
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.post span:nth-child(1) span label:hover{
+    color: rgb(214, 16, 26);
+    cursor: pointer;
+}
+
+.post span:nth-child(1) span:nth-child(2) label:nth-child(2){
+    position: relative;
+    font-size: 10pt;
+    padding: 0;
+    top: -15px;
+}
+
+.post span:nth-child(1) span:nth-child(3){
+    position: absolute;
+    right: 0;
+    display: inline-flex;
+}
+
+.post span:nth-child(1) span:nth-child(3) label{
+    position: relative;
+    top: 11px;
+    font-size: 13pt;
+}
+
+.post span:nth-child(1) span:nth-child(3) i{
+    position: relative;
+    top: 15px;
+    right: 15px;
+    font-size: 16pt;
+}
+
+.post span:nth-child(1) span:nth-child(3) i:hover{
+    cursor: pointer;
+}
+
+.post span:nth-child(2) div:nth-child(1){
+    position: relative;
+    width: 100%;
+    display: block;
+    padding: 10px 10px 0px 10px;
+    font-size: 14pt;
+}
+
+.post span:nth-child(2) div:nth-child(2) a{
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.post span:nth-child(2) div:nth-child(3) img{
+    position: relative;
+    width: 100%;
+    height: 40%;
+}
+
+.post span:nth-child(3) img{
+    border: 2px solid white;
+    margin: 0;
+    width: 33px;
+    height: 33px;
+}
+
+.post span:nth-child(3) label{
+    position: relative;
+    font-weight: bold;
+    font-size: 13pt;
+    left: -26px;
+}
+
+.post span:nth-child(3) img:nth-child(2){
+    position: relative;
+    left: -13px;
+}
+
+.post span:nth-child(3) img:nth-child(3){
+    position: relative;
+    left: -26px;
+}
+
+.post span:nth-child(3) span{
+    float: right;
+}
+
+.post span:nth-child(3) span i{
+    position: relative;
+    top: 5px;
+    font-size: 18pt;
+    margin-right: 4px;
+}
+
+.post span:nth-child(3) span i:hover{
+    cursor: pointer;
+}
+
+.post{
+    position: relative;
+    margin-bottom: 7px;
+}
+
+#createPost{
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px;
+}
+
+#createPost i{
+    font-size: 17pt;
+}
+
+.modal-content div:nth-child(2) textarea,
+.modal-content div:nth-child(2) input{
+    border-radius: 0 !important;
+    outline: none;
+    box-shadow: none;
+}
+
+.modal-footer input{
+    position: absolute;
+    visibility: hidden;
+    z-index: 0;
+    left: 0;
+}
+
+.modal-footer label{
+    position: absolute;
+    left: 10px;
+    font-size: 17pt;
+}
+
+.modal-footer label:hover{
+    cursor: pointer;
+}
